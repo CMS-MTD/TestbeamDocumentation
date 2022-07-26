@@ -1,6 +1,84 @@
-site_name: MkLorum
-site_url: https://example.com
+site_name: Testbeam Documentation
+site_url: https://cms-mtd.github.io/TestbeamDocumentation/
+site_description: Documentation for precise timing testbeams at Fermilab Test Beam Facility (FTBF).
+site_author: Chris Madrid and Ryan Heller
+
+repo_name: CMS-MTD/TestbeamDocumentation
+repo_url: https://github.com/CMS-MTD/TestbeamDocumentation
+
+use_directory_urls: false
+copyright: Copyright &copy; 2022 FNAL Timing Group
+
+theme:
+  name: material
+  logo: images/logo.jpeg
+  favicon: images/favicon.jpeg
+  palette:
+    scheme: preference
+    primary: blue
+    accent: blue
+  features:
+    - instant
+
+plugins:
+  - search:
+      min_search_length: 2
+  - minify:
+      minify_html: true
+  - markdownextradata
+  - git-revision-date-localized
+
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.6/dist/mermaid.min.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  FOO: BAR
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/CMS-MTD
+
 nav:
     - Home: index.md
-    - About: about.md
-theme: readthedocs
+    - MkDocs Help: mkDocs.md
