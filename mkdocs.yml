@@ -12,7 +12,7 @@ copyright: Copyright &copy; 2022 FNAL Timing Group
 theme:
   name: material
   logo: images/logo.jpeg
-  favicon: images/favicon.jpeg
+  favicon: images/favicon.png
   palette:
     scheme: preference
     primary: blue
