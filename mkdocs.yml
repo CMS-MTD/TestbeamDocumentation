@@ -39,8 +39,6 @@ theme:
 
 # Plugins
 plugins:
-  - search:
-      min_search_length: 2
   - minify:
       minify_html: true
   - markdownextradata
@@ -106,3 +104,10 @@ extra:
 nav:
     - Home: index.md
     - MkDocs Help: mkDocs.md
+    - Fermilab Test Beam Facility: FTBF.md
+    - Experimental chambers: Echamber.md
+    - NIM+: NIMPlus.md
+    - Telescope: Telescope.md
+    - Tracker: Tracker.md
+    - Sensor: Sensor.md
+    - Multiplexer: multiplex.md
