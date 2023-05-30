@@ -2,12 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://cms-mtd.github.io/TestbeamDocumentation/index.html</loc>
-         <lastmod>2022-07-27</lastmod>
+         <lastmod>2023-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cms-mtd.github.io/TestbeamDocumentation/Echamber.html</loc>
+         <lastmod>2023-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cms-mtd.github.io/TestbeamDocumentation/FTBF.html</loc>
+         <lastmod>2023-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cms-mtd.github.io/TestbeamDocumentation/NIMPlus.html</loc>
+         <lastmod>2023-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cms-mtd.github.io/TestbeamDocumentation/Sensor.html</loc>
+         <lastmod>2023-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cms-mtd.github.io/TestbeamDocumentation/Telescope.html</loc>
+         <lastmod>2023-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cms-mtd.github.io/TestbeamDocumentation/Tracker.html</loc>
+         <lastmod>2023-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cms-mtd.github.io/TestbeamDocumentation/Trigger.html</loc>
+         <lastmod>2023-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://cms-mtd.github.io/TestbeamDocumentation/mkDocs.html</loc>
-         <lastmod>2022-07-27</lastmod>
+         <lastmod>2023-05-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cms-mtd.github.io/TestbeamDocumentation/multiplex.html</loc>
+         <lastmod>2023-05-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
