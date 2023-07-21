@@ -106,6 +106,7 @@ nav:
     - MkDocs Help: mkDocs.md
     - Fermilab Test Beam Facility: FTBF.md
     - Experimental chambers: Echamber.md
+    - FNAL 16-channel board: FNAL_16ch_board.md
     - NIM+: NIMPlus.md
     - Telescope: Telescope.md
     - Tracker: Tracker.md
